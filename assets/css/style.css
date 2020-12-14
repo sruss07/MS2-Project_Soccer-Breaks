@@ -2,3 +2,48 @@
     width: 300px;
 }
 
+/*----------------------------------------Footer Section*/
+
+footer {
+    height: 70px;
+    background: #464866;
+    margin: 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-items {
+    text-align: center;
+}
+
+.footer-items li {
+    display: inline;
+}
+
+.container-fluid {
+    position: absolute;
+    bottom: 0;
+}
+
+.social-network-icons {
+    text-align: center;
+}
+
+.social-network-icons li {
+    display: inline;
+}
+
+.social-network-icons i {
+    font-size: 150%;
+    margin: 15px;
+    padding: 10px;
+    color: #2E9CCA;
+}
+
+/*----------------------------------------Footer Section*/
