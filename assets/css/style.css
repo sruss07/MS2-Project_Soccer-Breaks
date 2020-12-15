@@ -1,5 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:100,200,300,400,500,600');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto&display=swap');
+
 .card {
     width: 300px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+/*----------------------------------------Header Section*/
+
+.navbar {
+    align-items: center;
+    background-color:#464866;
+    color: #2E9CCA;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar .navbar-brand {
+    color: #2E9CCA;
+    font-family: Saira, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #2E9CCA;
+    font-family: Saira, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+   background-color: rgba(170, 171, 184, 0.10);
+}
+
+
+/*----------------------------------------Header Section*/
+
+
+/*----------------------------------------Home page cards*/
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
 }
 
 /*----------------------------------------Footer Section*/
@@ -47,3 +121,13 @@ footer {
 }
 
 /*----------------------------------------Footer Section*/
+
+/*----------------------------------------Media Queries*/
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
