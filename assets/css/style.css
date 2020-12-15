@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Barlow', sans-serif;
+    background-color: #464866;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h1 {
 
 .navbar {
     align-items: center;
-    background-color:#464866;
+    background:#25274D;
     color: #2E9CCA;
     display: flex;
     position: relative;
@@ -48,8 +49,24 @@ h1 {
    background-color: rgba(170, 171, 184, 0.10);
 }
 
+/*----------------------------------------Jumbotron*/
 
-/*----------------------------------------Header Section*/
+.jumbotron {
+    background-color: #464866;
+}
+
+.jumbotron h1 {
+    text-transform: uppercase;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.jumbotron p {
+    text-transform: uppercase;
+    color: #f1f1f1;
+    text-align: center;
+    font-style: italic;
+}
 
 
 /*----------------------------------------Home page cards*/
@@ -80,7 +97,7 @@ h1 {
 
 footer {
     height: 70px;
-    background: #464866;
+    background: #25274D;
     margin: 0;
 }
 
