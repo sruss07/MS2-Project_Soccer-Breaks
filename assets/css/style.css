@@ -2,11 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto&display=swap');
 
-.card {
-    width: 300px;
-}
 
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -59,6 +58,7 @@ h1 {
     text-transform: uppercase;
     color: #f1f1f1;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .jumbotron p {
@@ -71,7 +71,7 @@ h1 {
 
 /*----------------------------------------Home page cards*/
 
-.column {
+.col {
   float: left;
   width: 25%;
   padding: 0 10px;
@@ -79,12 +79,6 @@ h1 {
 
 .row {
     margin: 0 -5px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .card {
@@ -95,49 +89,50 @@ h1 {
 
 /*----------------------------------------Footer Section*/
 
-footer {
-    height: 70px;
-    background: #25274D;
-    margin: 0;
-}
-
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+	height: 70px;
+	line-height: 60px;
+	background:#25274D;
+	margin: 0;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
 
 .footer-items {
-    text-align: center;
+	text-align: center;
 }
 
 .footer-items li {
-    display: inline;
-}
-
-.container-fluid {
-    position: absolute;
-    bottom: 0;
+	display: inline;
 }
 
 .social-network-icons {
-    text-align: center;
+	text-align: center;
 }
 
 .social-network-icons li {
-    display: inline;
+	display: inline;
+}
+
+.social-network-icons li a {
+	text-decoration: none;
 }
 
 .social-network-icons i {
-    font-size: 150%;
-    margin: 15px;
-    padding: 10px;
-    color: #2E9CCA;
+	font-size: 150%;
+	margin: 15px;
+	padding: 10px;
+	color: #2E9CCA;
 }
 
-/*----------------------------------------Footer Section*/
+.footer-color {
+	background-color: #25274D;
+}
+
+.social-network-icons i:hover {
+	background-color:rgba(170, 171, 184, 0.10);
+}
 
 /*----------------------------------------Media Queries*/
 
